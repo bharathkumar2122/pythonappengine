@@ -9,9 +9,9 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
 
-    int a=13
-    int b=14
-    int c=a+b;
+    a=13
+    b=14
+    c=a+b
     return(c)
 
 
